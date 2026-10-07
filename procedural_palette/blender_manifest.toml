@@ -1,0 +1,20 @@
+schema_version = "1.0.0"
+
+id = "procedural_palette"
+version = "0.2.0"
+name = "Procedural Palette"
+tagline = "Procedural material library with weathering and baking"
+maintainer = "Procedural Palette contributors"
+type = "add-on"
+
+tags = ["Material", "Node", "Render"]
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Save material library and baked textures to disk"
+
+[build]
+paths_exclude_pattern = ["__pycache__/", "*.pyc"]
